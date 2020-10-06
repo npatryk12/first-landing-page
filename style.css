@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  width: 80%;
+  background-color: #dee2d6ff;
+}
+
+.logocontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: white;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+
+.contactbg {
+  background-image: url("https://pshjanitorial.com/files/2019/02/512untitled_6_recovered_recovered_recovered.jpg");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 30% 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maintext {
+  padding: 200px 50px;
+  width: 60%;
+  display: block;
+  float: left;
+  font-size: 22px;
+  color: #5f464bff;
+  font-weight: bold;
+}
+
+.contactform {
+  padding-top: 15px;
+  background-color: #5f464bff;
+  opacity: 0.9;
+  border-radius: 15px;
+  height: 85%;
+  width: 350px;
+  color: white;
+  text-align: center;
+}
+
+.contactform h3 {
+  font-size: 34px;
+}
+
+.contactform p {
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 10px;
+}
+
+.contactform label {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contactform input {
+  border: none;
+  height: 28px;
+  width: 200px;
+  margin: 4px 0px;
+}
+
+.contactform button {
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+}
+
+.icondiv {
+  background-color: white;
+  height: 50vh;
+  padding: 20px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.icondiv .icon {
+  display: inline;
+  max-width: 20%;
+}
+
+.icondiv .icon img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.icondiv .icon h4 {
+  font-size: 27px;
+  color: #5f464bff;
+}
+
+.icondiv .icon h4,
+.icondiv .icon p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.examplesdiv {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.examplesdiv .imgdiv1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.examplesdiv .imgdiv1 img {
+  padding: 4px 4px 4px 4px;
+}
+
+.examplesdiv .imgdiv1 .exampletext {
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.examplesdiv .imgdiv1 .exampletext h4 {
+  max-width: 550px;
+  padding-bottom: 20px;
+  font-size: 27px;
+  color: #5f464bff;
+}
+
+.examplesdiv .imgdiv1 .exampletext p {
+  max-width: 550px;
+}
+
+.testimonialdiv {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.testimonialdiv img {
+  border-radius: 50%;
+}
+
+.testimonialdiv p {
+  text-transform: uppercase;
+  max-width: 550px;
+  padding-left: 40px;
+}
+
+.testimonialdiv cite {
+  color: #5f464bff;
+}
+
+.testimonialdiv .quotes {
+  height: 220px;
+}
+
+.examplesdiv2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.examplesdiv2 .imgdiv1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.examplesdiv2 .imgdiv1 img {
+  padding: 4px 4px 4px 4px;
+}
+
+.examplesdiv2 .imgdiv1 .exampletext {
+  padding: 25px 40px 40px 0px;
+}
+
+.examplesdiv2 .imgdiv1 .exampletext h4 {
+  max-width: 550px;
+  padding-bottom: 20px;
+  font-size: 27px;
+  color: #5f464bff;
+}
+
+.examplesdiv2 .imgdiv1 .exampletext p {
+  max-width: 550px;
+}
+
+.finalquote {
+  background: #5f464bff;
+  color: white;
+  text-align: center;
+  padding: 70px 0 70px 0;
+}
+
+.finalquote .paragraph {
+  width: 650px;
+  margin: auto;
+}
+
+.finalquote .paragraph h4 {
+  font-size: 27px;
+}
+
+.finalquote button {
+  width: 300px;
+  height: 50px;
+  color: #5f464bff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.finalquote button:hover {
+  background-color: #dee2d6ff;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 10px;
+}
+/*# sourceMappingURL=style.css.map */

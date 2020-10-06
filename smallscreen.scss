@@ -1,0 +1,71 @@
+@media only screen and (max-width: 750px) {
+  $rose-ebony: #5f464bff; // used in header
+  $alabaster: #dee2d6ff; //Background
+
+  .logocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .contactnum {
+      text-align: center;
+      margin-top: 15px;
+    }
+  }
+
+  .contactform {
+    h3 {
+      font-size: 30px;
+    }
+
+    input {
+      max-width: 80%;
+    }
+  }
+
+  .icondiv {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    .icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 25px 0 25px 0;
+
+      p {
+        width: 400px;
+      }
+    }
+  }
+
+  .examplesdiv,
+  .examplesdiv2 {
+    .imgdiv1 {
+      display: flex;
+      flex-direction: column;
+
+      padding: 15px;
+      align-items: center;
+
+      .exampletext {
+        text-align: center;
+        float: left;
+        justify-content: center;
+      }
+    }
+  }
+
+  .testimonialdiv {
+    width: 420px;
+  }
+
+  .finalquote {
+    .paragraph {
+      max-width: 100%;
+    }
+  }
+}

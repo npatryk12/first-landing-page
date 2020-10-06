@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap");
+
+$rose-ebony: #5f464bff; // used in header
+$alabaster: #dee2d6ff; //Background
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  width: 80%;
+  background-color: #dee2d6ff;
+}
+
+.logocontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+
+.contactbg {
+  background-image: url("https://pshjanitorial.com/files/2019/02/512untitled_6_recovered_recovered_recovered.jpg");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 30% 60%;
+  display: flex;
+  align-items: center;
+}
+
+.maintext {
+  padding: 200px 50px;
+  width: 60%;
+  display: block;
+  float: left;
+  font-size: 22px;
+  color: $rose-ebony;
+
+  font-weight: bold;
+}
+
+.contactform {
+  padding-top: 15px;
+  background-color: $rose-ebony;
+  opacity: 0.9;
+  border-radius: 15px;
+  height: 85%;
+  width: 350px;
+  color: white;
+  text-align: center;
+
+  h3 {
+    font-size: 34px;
+  }
+
+  p {
+    font-size: 12px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+  }
+
+  label {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  input {
+    border: none;
+    height: 28px;
+    width: 200px;
+
+    margin: 4px 0px;
+  }
+  button {
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+  }
+}
+
+.icondiv {
+  background-color: white; //CHANGE COLOR
+  height: 50vh;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  .icon {
+    display: inline;
+    max-width: 20%;
+
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    h4 {
+      font-size: 27px;
+      color: $rose-ebony;
+    }
+
+    h4,
+    p {
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+}
+
+.examplesdiv {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  .imgdiv1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img {
+      padding: 4px 4px 4px 4px;
+    }
+
+    .exampletext {
+      padding-left: 50px;
+      padding-top: 25px;
+
+      h4 {
+        max-width: 550px;
+        padding-bottom: 20px;
+        font-size: 27px;
+        color: $rose-ebony;
+      }
+
+      p {
+        max-width: 550px;
+      }
+    }
+  }
+}
+
+.testimonialdiv {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  img {
+    border-radius: 50%;
+  }
+
+  p {
+    text-transform: uppercase;
+    max-width: 550px;
+    padding-left: 40px;
+  }
+  cite {
+    color: $rose-ebony;
+  }
+
+  .quotes {
+    height: 220px;
+  }
+}
+.examplesdiv2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  .imgdiv1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img {
+      padding: 4px 4px 4px 4px;
+    }
+
+    .exampletext {
+      padding: 25px 40px 40px 0px;
+
+      h4 {
+        max-width: 550px;
+        padding-bottom: 20px;
+        font-size: 27px;
+        color: $rose-ebony;
+      }
+
+      p {
+        max-width: 550px;
+      }
+    }
+  }
+}
+
+.finalquote {
+  background: $rose-ebony;
+  color: white;
+  text-align: center;
+  padding: 70px 0 70px 0;
+
+  .paragraph {
+    width: 650px;
+    margin: auto;
+
+    h4 {
+      font-size: 27px;
+    }
+  }
+  button {
+    width: 300px;
+    height: 50px;
+    color: $rose-ebony;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+
+  button:hover {
+    background-color: $alabaster;
+  }
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 10px;
+}
